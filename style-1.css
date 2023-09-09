@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(210, 46%, 95%);
+  font-family: "Manrope";
+}
+
+p {
+  font-weight: 13px;
+}
+
+.container {
+  display: flex;
+  width: 800px;
+}
+
+.img-card {
+  width: 35%;
+  object-fit: cover;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.details {
+  width: 65%;
+  background: #fff;
+  border-radius: 0px 10px 10px 0px;
+  padding: 40px;
+}
+
+.details > h2 {
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+}
+
+.details > P {
+  color: hsl(214, 17%, 51%);
+  margin: 20px 0px;
+  font-weight: 400;
+}
+
+.michelle-appleton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profiles {
+  display: flex;
+  align-content: center;
+}
+
+.profiles > img {
+  width: 15%;
+  border-radius: 50%;
+}
+
+.date {
+  margin-left: 20px;
+}
+
+.date > h3 {
+  color: hsl(217, 19%, 35%);
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.date > p {
+  color: hsl(214, 17%, 51%);
+}
+
+.share {
+  position: relative;
+}
+
+.share-img > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  background: hsl(217, 19%, 35%);
+}
+
+.share-options {
+  display: none;
+  position: absolute;
+  top: -95px;
+  left: -110px;
+}
+
+.share-1 {
+  display: flex;
+  background: hsl(217, 19%, 35%);
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.share-img:hover ~ .share-options {
+  display: block;
+}
+
+.share-1 p {
+  color: hsl(214, 17%, 51%);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.icon {
+  margin-left: 15px;
+}
+
+.clip-path {
+  transform: translateX(110px);
+  width: 40px;
+  height: 20px;
+  clip-path: polygon(100% 0, 0 0, 50% 100%);
+  background: hsl(217, 19%, 35%);
+  margin-top: -1px;
+}
